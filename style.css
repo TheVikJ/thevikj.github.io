@@ -2,8 +2,8 @@
 
 body {
     font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
-    background-color: #64c6ff;
-    color:#FFFFFF;
+    background-color: #000026 !important;
+    color: #94f7b2 !important;
     font-size: 60px;
     text-align: center;
     background-image: url("images/background.png") !important;
@@ -21,8 +21,11 @@ body {
 
   .button-text{
     font-family: 'Press Start 2P';
-    position: sticky;
-    right: 10%;
+    background-color: #005a5c;
+    padding-left: 0.05vh;
+    padding-top: 0.05vh;
+    padding-bottom: 0.05vh;
+    padding-right: 0.05vh;
   }
 
   .intro {
