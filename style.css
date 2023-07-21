@@ -4,7 +4,6 @@ body {
     font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
     background-color: #000026 !important;
     color: #94f7b2 !important;
-    font-size: 60px;
     text-align: center;
     background-image: url("images/background.png") !important;
     background-repeat: no-repeat;
@@ -14,24 +13,26 @@ body {
     font-family : inherit;
     background-color: #94f7b2 !important;
     color: #005a5c !important;
-    padding: 15px 32px;
-    font-size: 20px;
+    padding: 1.66vh 1.66vw;
+    font-size: 2.25vh;
   }
 
   .button-text{
     font-family: 'Press Start 2P';
     background-color: #005a5c;
+    font-size: 2vh;
     border: 2px solid #94f7b2 !important;
   }
 
   .intro {
     font-family: 'Press Start 2P';
-    font-size: 40px; 
+    font-size: 4.5vh; 
     background-color: #005a5c;
     border: 2px solid #94f7b2 !important
   }
 
   .container {
+    width: max-content;
     display: flex;
     justify-content: end;
     height: 100vh;
@@ -39,5 +40,14 @@ body {
   }
 
   .row {
-    padding-top: 1.75%;
+    padding-top: 1.75vh;
+    width: 30vw;
+  }
+
+  .header {
+    font-size: 3.5vh;
+  }
+
+  .logo {
+    height: 5vh;
   }
