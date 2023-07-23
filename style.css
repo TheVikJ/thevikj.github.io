@@ -1,6 +1,114 @@
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 
-body {
+@media only screen and (max-width: 899px) {
+  body {
+    min-height: 100vh;
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+    background-color: #000026 !important;
+    color: #94f7b2 !important;
+    text-align: center;
+    background-image: url("images/background.png") !important;
+    background-repeat: repeat-y;
+  }
+
+  button {
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+    background-color: #94f7b2 !important;
+    color: #005a5c !important;
+    padding: 1.66vh 1.66vw;
+    font-size: 1.75vh !important;
+  }
+
+  .button-text {
+    font-family: 'Press Start 2P';
+    background-color: #005a5c;
+    font-size: 1.5vh !important;
+    border: 2px solid #94f7b2 !important;
+    width: 90vw;
+  }
+
+  .intro {
+    font-family: 'Press Start 2P';
+    font-size: 3vh !important; 
+    background-color: #005a5c;
+    border: 2px solid #94f7b2 !important;
+    width: 90vw;
+  }
+
+  .logo {
+    height: 9vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+
+  #headshot {
+    padding-top: 4vh;
+    width: 50vw;
+  }
+
+  .main {
+    width: fit-content;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .projects {
+    padding-top: 10vh;
+    row-gap: 1vh;
+    width: fit-content;
+    justify-content: center !important;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap !important;
+  }
+
+  .colproject {
+    background-color: #005a5c;
+    width: min-content;
+    padding: 2vh 2vw; 
+    border: 2px solid #94f7b2 !important;
+    height: 68vh;
+  }
+
+  .iframe {
+    width: 15vw;
+  }
+
+  .projintro {
+    font-size: 2vh;
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace; 
+  }
+
+  .projtext {
+    font-size: 1.5vh;
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+  }
+
+  .projbutton {
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+    background-color: #94f7b2 !important;
+    color: #005a5c !important;
+    padding: 1vh 1vw;
+    font-size: 1.75vh !important;
+  }
+
+  #buttonmoreproj {
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+    background-color: #94f7b2 !important;
+    color: #005a5c !important;
+    padding: 1vh 1vw;
+    font-size: 2vh !important;
+  }
+
+  .header {
+    font-size: 3.5vh;
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  body {
     min-width: 100vw;
     min-height: 100vh;
     font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
@@ -8,7 +116,7 @@ body {
     color: #94f7b2 !important;
     text-align: center;
     background-image: url("images/background.png") !important;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     cursor: url("images/cursor.png"), auto;
   }
   
@@ -26,6 +134,13 @@ body {
 
   a:hover {
     cursor: url("images/cursor-click.png"), auto;
+  }
+
+  #headshot {
+    position: absolute; 
+    left: 0px !important; 
+    bottom: 0px !important; 
+    width: 48%;
   }
 
   .button-text {
@@ -66,8 +181,9 @@ body {
 
   .projects {
     padding-top: 10vh;
+    row-gap: 1vh;
     width: 100vw !important;
-    justify-content: space-between !important;
+    justify-content: center !important;
     display: flex;
     align-items: center;
     flex-wrap: wrap !important;
@@ -78,7 +194,7 @@ body {
     width: min-content;
     padding: 2vh 2vw; 
     border: 2px solid #94f7b2 !important;
-    height: 62vh;
+    height: 68vh;
   }
 
   .iframe {
@@ -102,3 +218,12 @@ body {
     padding: 1.66vh 1.66vw;
     font-size: 2.25vh !important;
   }
+
+  #buttonmoreproj {
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+    background-color: #94f7b2 !important;
+    color: #005a5c !important;
+    padding: 1.66vh 1.66vw;
+    font-size: 4vh !important;
+  }
+}
