@@ -166,7 +166,8 @@
   }
 
   .rowmain {
-    padding-top: 1.75vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     width: 30vw;
   }
 
