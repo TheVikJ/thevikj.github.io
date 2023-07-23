@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 
 body {
+    min-width: 100vw;
+    min-height: 100vh;
     font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
     background-color: #000026 !important;
     color: #94f7b2 !important;
@@ -37,7 +39,7 @@ body {
     font-family: 'Press Start 2P';
     font-size: 4.5vh !important; 
     background-color: #005a5c;
-    border: 2px solid #94f7b2 !important
+    border: 2px solid #94f7b2 !important;
   }
 
   .main {
@@ -76,7 +78,7 @@ body {
     width: min-content;
     padding: 2vh 2vw; 
     border: 2px solid #94f7b2 !important;
-    height: 70vh;
+    height: 62vh;
   }
 
   .iframe {
