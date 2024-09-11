@@ -17,10 +17,14 @@
     color: #005a5c !important;
     padding: 1.66vh 1.66vw;
     font-size: 2.25vh !important;
+    border-color: #005a5c !important;
+    border-width: 3px !important;
   }
 
   button:hover {
     cursor: url("images/cursor-click.png"), auto;
+    border-color: #FFFFFF !important;
+    border-width: 3px;
   }
 
   a:hover {
@@ -32,11 +36,13 @@
     background-color: #005a5c;
     font-size: 2vh !important;
     border: 2px solid #94f7b2 !important;
+    color: #FFFFFF !important;
   }
 
   .intro {
     font-family: 'Press Start 2P';
-    font-size: 4.5vh !important; 
+    font-size: 4.5vh !important;
+    color: #FFFFFF !important; 
     background-color: #005a5c;
     border: 2px solid #94f7b2 !important;
   }
@@ -59,6 +65,7 @@
   .header {
     font-size: 3.5vh;
     font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+    color: #94f7b2 !important;
   }
 
   .logo {
