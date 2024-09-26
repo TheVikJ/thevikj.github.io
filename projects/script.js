@@ -29,3 +29,11 @@ function Ocarina() {
 function ViksBlue() {
   window.open("https://viks.blue");
 }
+
+function AmherstCinema() {
+  window.open("uploads/Redesigning the Amherst Cinema Website.pdf");
+}
+
+function UMassDining() {
+  window.open("uploads/Redesigning the UMass Dining App.pdf");
+}
