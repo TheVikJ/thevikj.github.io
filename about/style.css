@@ -46,3 +46,51 @@
     height: 5vh;
   }
 }
+
+@media only screen and (max-width: 899px) {
+  body {
+    min-width: 100vw !important;
+    min-height: 100vh !important;
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace !important;
+    background-color: #000026 !important;
+    color: #94f7b2 !important;
+    text-align: center;
+    font-size: 1.5vh !important;
+    cursor: url("images/cursor.png"), auto;
+  }
+
+  .header {
+    font-size: 3vh;
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace !important;
+  }
+
+  .container {
+    padding-top: 25vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .row {
+    padding: 2vh;
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace !important;
+    width: fit-content;
+    max-width: 75vw !important;
+    height: fit-content;
+    background-color: #005a5c;
+    border: 2px solid #94f7b2 !important;
+  }
+
+  a {
+    color: #FFFFFF !important;
+  }
+
+  a:hover {
+    cursor: url("images/cursor-click.png"), auto;
+  }
+
+  .logo {
+    height: 5vh;
+  }
+}
