@@ -70,11 +70,11 @@
   }
 
   .title {
-    font-size: 3.5vh;
+    font-size: 5vh;
     font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
     color: #FFFFFF !important;
     padding: 1vh !important;
-    height: 5vh !important;
+    height: 7vh !important;
     justify-content: center !important;
     align-items: center !important;
   }
