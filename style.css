@@ -1,75 +1,115 @@
-@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
 
 @media only screen and (min-width: 900px) {
   body {
     min-width: 100vw !important;
     min-height: 100vh !important;
-    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
-    background-color: #000026 !important;
-    color: #94f7b2 !important;
-    text-align: center;
-    cursor: url("images/cursor.png"), auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    background-color: #1a448b !important;
+    color: #FFFFFF !important;
+    text-align: start !important;
   }
   
-  button {
-    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
-    background-color: #94f7b2 !important;
-    color: #005a5c !important;
-    padding: 1.66vh 1.66vw;
-    font-size: 2.25vh !important;
-    border-color: #005a5c !important;
-    border-width: 3px !important;
-  }
-
-  button:hover {
-    cursor: url("images/cursor-click.png"), auto;
-    border-color: #FFFFFF !important;
-    border-width: 3px;
-  }
-
-  a:hover {
-    cursor: url("images/cursor-click.png"), auto;
-  }
-
-  .button-text {
-    font-family: 'Press Start 2P';
-    background-color: #005a5c;
-    font-size: 2vh !important;
-    border: 2px solid #94f7b2 !important;
+  .btn {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 500 !important;
     color: #FFFFFF !important;
+    background-color: #1a448b !important;
+    border-color: #FFFFFF !important;
+    padding: 1.66vh 1.66vw;
+    font-size: 4vh !important;
+    border-width: 3px !important;
+    box-shadow: 5px 5px 5px #000000 !important;
+  }
+
+  .btn:hover {
+    box-shadow: 0 0 0 #000000 !important;
+  }
+
+  /*.button-text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 2vh !important;
+    color: #FFFFFF !important;
+  }*/
+
+  .rowintro {
+    display: flex;
+    justify-content: center !important;
   }
 
   .intro {
-    font-family: 'Press Start 2P';
-    font-size: 4.5vh !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 10vh !important;
     color: #FFFFFF !important; 
-    background-color: #005a5c;
-    border: 2px solid #94f7b2 !important;
+    font-weight: 600 !important;
+  }
+
+  .col {
+    width: 100% !important;
   }
 
   .container {
     padding-top: 5vh;
     display: flex;
-    width: 100vw !important;
+    width: 90% !important;
     height: fit-content;
-    align-items: center !important;
-    justify-content: center !important;
-  }
-
-  .rowmain {
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    width: 30vw;
-  }
-
-  .header {
-    font-size: 3.5vh;
-    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
-    color: #94f7b2 !important;
+    align-items: start !important;
+    justify-content: start !important;
   }
 
   .logo {
-    height: 5vh;
+    height: 6vh;
+    border-radius: 3vh !important;
+    box-shadow: 5px 5px 5px #000000 !important;
+    border-color: #FFFFFF !important;
+    border-width: 3px !important;
+    border-style: solid !important;
+  }
+
+  .logo:hover {
+    box-shadow: 0 0 0 #000000 !important;
+  }
+
+  .row {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+    padding-top: 2vh !important;
+    padding-bottom: 2vh !important;
+  }
+
+  .rowlinks {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .collinks {
+    max-width: 30%;
+    min-width: fit-content !important;
+    display: flex !important;
+    justify-content: space-around !important;
+  }
+
+  .rowbuttons {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .colbuttons {
+    max-width: 35%;
+    min-width: fit-content !important;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+  a {
+    color: #FFFFFF !important;
+    text-decoration: underline !important;
+  }
+
+  p {
+    font-size: 3vh !important;
   }
 }
 
@@ -77,71 +117,113 @@
   body {
     min-width: 100vw !important;
     min-height: 100vh !important;
-    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
-    background-color: #000026 !important;
-    color: #94f7b2 !important;
-    text-align: center;
-    cursor: url("images/cursor.png"), auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    background-color: #1a448b !important;
+    color: #FFFFFF !important;
+    text-align: start !important;
   }
   
-  button {
-    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
-    background-color: #94f7b2 !important;
-    color: #005a5c !important;
-    padding: 1.66vh 1.66vw;
-    font-size: 2vh !important;
-    border-color: #005a5c !important;
-    border-width: 3px !important;
-  }
-
-  button:hover {
-    cursor: url("images/cursor-click.png"), auto;
+  .btn {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 500 !important;
+    color: #FFFFFF !important;
+    background-color: #1a448b !important;
     border-color: #FFFFFF !important;
-    border-width: 3px;
+    padding: 1.66vh 1.66vw;
+    font-size: 4vh !important;
+    border-width: 3px !important;
+    box-shadow: 5px 5px 5px #000000 !important;
   }
 
-  a:hover {
-    cursor: url("images/cursor-click.png"), auto;
+  .btn:hover {
+    box-shadow: 0 0 0 #000000 !important;
   }
 
   .button-text {
-    font-family: 'Press Start 2P';
-    background-color: #005a5c;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    background-color: #1a448b !important;
     font-size: 2vh !important;
-    border: 2px solid #94f7b2 !important;
+    border: 2px solid #FFFFFF !important;
     color: #FFFFFF !important;
   }
 
   .intro {
-    font-family: 'Press Start 2P';
-    font-size: 4.5vh !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 7vh !important;
+    font-weight: 600 !important;
     color: #FFFFFF !important; 
-    background-color: #005a5c;
-    border: 2px solid #94f7b2 !important;
   }
 
   .container {
     padding-top: 5vh;
+    padding-left: 4vw !important;
+    padding-right: 4vw !important;
     display: flex;
-    width: 100vw !important;
+    width: 92vw !important;
     height: fit-content;
-    align-items: center !important;
+    align-items: start !important;
     justify-content: center !important;
-  }
-
-  .rowmain {
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    width: 70vw;
   }
 
   .header {
     font-size: 3vh;
-    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     color: #94f7b2 !important;
   }
 
   .logo {
-    height: 5vh;
+    height: 8vh;
+    box-shadow: 5px 5px 5px #000000 !important;
+    border-radius: 4vh;
+    border-color: #FFFFFF !important;
+    border-width: 3px !important;
+    border-style: solid !important;
+  }
+
+  .logo:hover {
+    box-shadow: 0 0 0 #000000 !important;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .row {
+    width: 100% !important;
+    padding-top: 2vh !important;
+    padding-bottom: 2vh !important;
+  }
+
+  .rowlinks {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .collinks {
+    max-width: 80%;
+    min-width: fit-content !important;
+    display: flex !important;
+    justify-content: space-around !important;
+  }
+
+  .rowbuttons {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .colbuttons {
+    max-width: 70%;
+    min-width: fit-content !important;
+    display: flex !important;
+    justify-content: space-around !important;
+  }
+
+  a {
+    color: #FFFFFF !important;
+    text-decoration: underline !important;
+  }
+
+  p {
+    font-size: 3vh !important;
   }
 }
