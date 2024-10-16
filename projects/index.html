@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
   <head>
-    <title>SUPER VIK 64</title>
+    <title>Vikramaditya Jaisingh</title>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -13,84 +13,111 @@
   </body>
 
   <div class="container" id="projects" style="padding-top: 2vh;">
+    <div class="row rowproj">
+      <div class="col">
+        <button class="morebutton btn" onclick="location.href='/'">Back to Home</button>
+        <button class="morebutton btn" onclick="Devpost()">Hackathon Archive</button>
+        <button class="morebutton btn" onclick="ViksBlue()">Creative Portfolio</button>
+      </div>
+    </div>
+
+    <div class="row rowproj">
+      <div class="line"></div>
+    </div>
+    
     <div class="row rowtitle">
-      <div class="col" style="padding: 1vh; background-color: #005a5c; border: 2px solid #94f7b2 !important;">
+      <div class="col coltitle">
         <p class="title">UI/UX Projects</p>
       </div>
     </div>
 
     <div class="row rowproj">
+      <div class="line"></div>
+    </div>
+
+    <div class="row rowproj">
       <div class="col colproject">
         <p class="header">Amherst Cinema Website</p>
-        <img class="projimage" src="images/UIUX Redesign - AC.png">
+        <div class="row rowprojimg"> 
+          <img class="projimage" src="images/UIUX Redesign - AC.png">
+        </div>
         <p class="projintro">Redesigning the Amherst Cinema Website</p>
         <p class="projtext">Low-fidelity prototyping with Balsamiq</p>
         <p class="projtext">High-fidelity prototyping with Figma</p>
-        <button class="projbutton btn btn-primary btn-lg" onclick="AmherstCinema()">View Project!</button>
+        <button class="projbutton btn" onclick="AmherstCinema()">View Project</button>
       </div>
 
       <div class="col colproject">
         <p class="header">UMass Dining App</p>
-        <img class="projimage" src="images/UIUX Redesign - UD.png">
+        <div class="row rowprojimg"> 
+          <img class="projimage" src="images/UIUX Redesign - UD.png">
+        </div>
         <p class="projintro">Redesigning the UMass Dining App</p>
         <p class="projtext">Low-fidelity prototyping with Balsamiq</p>
         <p class="projtext">Project for CS-325: Human Computer Interaction</p>
-        <button class="projbutton btn btn-primary btn-lg" onclick="UMassDining()">View Project!</button>
+        <button class="projbutton btn" onclick="UMassDining()">View Project</button>
       </div>
+    </div>
 
+    <div class="row rowproj">
+      <div class="line"></div>
     </div>
 
     <div class="row rowtitle">
-      <div class="col" style="padding: 1vh; background-color: #005a5c; border: 2px solid #94f7b2 !important;">
+      <div class="col coltitle">
         <p class="title">Hackathon Projects</p>
       </div>
     </div>
 
     <div class="row rowproj">
+      <div class="line"></div>
+    </div>
+
+    <div class="row rowproj">
       <div class="col colproject">
         <p class="header">Marvelous</p>
-        <iframe src="https://www.youtube.com/embed/T7KbF_DzHiY"></iframe>
+        <div class="row rowprojimg"> 
+          <iframe src="https://www.youtube.com/embed/T7KbF_DzHiY"></iframe>
+        </div>
         <p class="projintro">Marvel comic books at the best price possible</p>
         <p class="projtext">Best use of Linode Cloud</p>
         <p class="projtext">Winner at Hacktoon</p>
-        <button class="projbutton btn btn-primary btn-lg" onclick="Marvelous()">More Details!</button>
+        <button class="projbutton btn" onclick="Marvelous()">More Details</button>
       </div>
 
       <div class="col colproject">
         <p class="header">S.U.A.V.E.</p>
-        <iframe src="https://www.youtube.com/embed/W7S_azZIjHs"></iframe>
-        <p class="projintro">Search and Use APIs Very Easily!</p>
+        <div class="row rowprojimg"> 
+          <iframe src="https://www.youtube.com/embed/W7S_azZIjHs"></iframe>
+        </div>
+        <p class="projintro">Search and Use APIs Very Easily</p>
         <p class="projtext">Best use of Jina AI</p>
         <p class="projtext">Winner at Hacky Birthday MLH</p>
-        <button class="projbutton btn btn-primary btn-lg" onclick="Suave()">More Details!</button>
+        <button class="projbutton btn" onclick="Suave()">More Details</button>
       </div>
     </div>
 
     <div class="row rowproj">
       <div class="col colproject">
         <p class="header">Playwright Paladin</p>
-        <iframe src="https://www.youtube.com/embed/N-XfWpd_dB4"></iframe>
-        <p class="projintro">Helping writers with self-control!</p>
+        <div class="row rowprojimg"> 
+          <iframe src="https://www.youtube.com/embed/N-XfWpd_dB4"></iframe>
+        </div>
+        <p class="projintro">Helping writers with self-control</p>
         <p class="projtext">Third Overall & Best use of Linode Cloud</p>
         <p class="projtext">Winner at Thehacktrical</p>
-        <button class="projbutton btn btn-primary btn-lg" onclick="Paladin()">More Details!</button>
+        <button class="projbutton btn" onclick="Paladin()">More Details</button>
       </div>
 
       <div class="col colproject">
         <p class="header">Ocarina</p>
-        <iframe src="https://www.youtube.com/embed/3zQL3Y87MjE"></iframe>
-        <p class="projintro">Control your PC with songs from the Legend of Zelda</p>
+        <div class="row rowprojimg"> 
+          <iframe src="https://www.youtube.com/embed/3zQL3Y87MjE"></iframe>
+        </div>
+          <p class="projintro">Control your PC with songs from the Legend of Zelda</p>
         <p class="projtext">Most Rock-n-Roll Hack</p>
         <p class="projtext">Winner at Do-Re-Mi Hacks II</p>
-        <button class="projbutton btn btn-primary btn-lg" onclick="Ocarina()">More Details!</button>
-      </div>
-    </div>
-
-    <div class="row rowproj">
-      <div class="col" style="padding: 1vh; background-color: #005a5c; border: 2px solid #94f7b2 !important; width: fit-content;">
-        <button id="buttonmoreproj" class="btn btn-primary btn-lg" onclick="Devpost()">More Projects</button>
-        <button id="buttoncreative" class="btn btn-primary btn-lg" onclick="ViksBlue()">Creative Portfolio</button>
-        <p><a href="/">Back to Home</a></p>
+        <button class="projbutton btn" onclick="Ocarina()">More Details</button>
       </div>
     </div>
   </div>
