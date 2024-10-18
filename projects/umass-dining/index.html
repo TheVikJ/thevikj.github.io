@@ -1,0 +1,393 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Vikramaditya Jaisingh</title>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    </head>
+
+    <body>
+        <script src="script.js"></script>
+    </body>
+
+    <div class="container">
+        <div class="row">
+            <div class="colmain">
+                <p class="heading">How I Redesigned the UMass Dining App</p>
+                <p class="subheading">Project Introduction</p>
+                <p>UMass Amherst has held the title for Best College Food for several years with its four incredible dining halls, 
+                    numerous cafe locations, and Grab N Go program for when students have to get a quick bite between classes. 
+                    To help students find dining hall information, UMass Dining has an app to show students menus, opening hours, busyness, etc. 
+                    However, while UMass Dining may be number one, this app is not.</p> 
+                <p>Due to my own frustrations, I decided to redesign this app for an independent project for my 
+                    CS-325: Human Computer Interaction class. For this redesign, I first designed a user persona for this app. 
+                    Then, I built and analyzed wireframes of the current app (to understand pain points), 
+                    and built a final prototype using Balsamiq.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="colmain">
+                <p class="heading">Ingredients</p>
+                <p class="subheading">User Persona</p>
+                <p>To begin this redesign, we have to first understand the status quo. I started
+                    by designing a persona based on some interviews with my friends. One persona is 
+                    all that is needed for this design because the vast majority of UMass Dining App
+                    users is undergraduate students on UMass Dining meal plans. 
+                </p>
+                <div class="rowpersona">
+                    <div class="colimg">
+                        <img id="personaimg" src="images/persona-bella.png">
+                    </div>
+                    <div class="colimg">
+                        <p><a href="https://www.freepik.com/free-photo/college-student-holding-books-walking-campus-going-class-smiling-young-smiling-multiracial-asian-woman-girl-with-bag-outdoor-portrait_8907807.htm#query=college%20student&position=17&from_view=keyword&track=ais_hybrid&uuid=c4d76cce-fc51-4e40-8c01-a4da3e544310">Image by diana.grytsku</a> on Freepik</p>
+                    </div>
+                    <hr>
+                    <p><strong>Name:</strong> Bella</p>
+                    <p><strong>Occupation:</strong> Full-Time Student at UMass</p>
+                    <p><strong>Major:</strong> Business</p>
+                    <p><strong>Age:</strong> 20</p>
+                    <p><strong>Year:</strong> Sophomore</p>
+                    <p><strong>Location:</strong> On-Campus Housing</p>
+                    <hr>
+                    <p><strong>Motivations:</strong> Convenient, informed, and health-conscious dining choices</p>
+                    <p><strong>Background:</strong></p>
+                    <p>Bella is a busy sophomore with a packed schedule of classes, an on-campus job, and 
+                        multiple extracurricular activities. Living on campus, Bella relies on UMass Dining
+                        for almost all of her meals but sometimes faces struggles managing her time between
+                        her classes, her job, and her intramural sports. On the weekends and in the evenings,
+                        Bella enjoys grabbing meals with her friends and prioritizes her favorite foods and 
+                        locations.</p>
+                    <p><strong>Goals:</strong></p>
+                    <ul>
+                      <li><strong>Quick Meal Decisions:</strong> <br>Bella needs a quick way to check dining hall menus to make speedy dining decisions.</li>
+                      <li><strong>Allergies and Dietary Preferences:</strong> <br>Bella is allergic to shellfish, is experimenting with veganism, and would like to know which dishes align with her preferences.</li>
+                      <li><strong>Avoiding Crowds:</strong> <br>Bella wants to avoid long lines during peak meal hours to save time.</li>
+                      <li><strong>Menu Information:</strong> <br>Bella wants to know about the menus at the dining halls to know about availability of her favorite foods.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="colmain">
+                <p class="heading">Directions</p>
+                <p class="subheading">Wireframes of Current App using Balsamiq</p>
+                <p class="step">Step 1 - Launching App</p>
+                <div class="row">
+                    <img class="wireframe" src="images/current/home-launch.png">
+                    <div class="colwireframe">
+                        <p><strong>Notification Alert</strong></p>
+                        <p>
+                            Refusing notifications for the app results in this notification
+                            pop-up when the app launches.
+                        </p>
+                        <p>
+                            To use the app's main functionality and keep notifications off,
+                            Bella has to click Cancel on this pop-up. 
+                        </p>
+                    </div>
+                </div>
+
+                <p class="step">Step 2 - Open Tab</p>
+                <div class="row">
+                    <img class="wireframe" src="images/current/home-open.png">
+                    <div class="colwireframe">
+                        <p><strong>Notifications (Top-Left)</strong></p>
+                        <p>
+                            News/events and special dishes notifications.
+                        </p>
+                        <p><strong>Special Events (Carousel)</strong></p>
+                        <p>
+                            Bella can explore a carousel of upcoming special events. 
+                        </p>
+                        <p><strong>Dining Hall Tabs</strong></p>
+                        <p>
+                            Bella can filter dining halls by Open, Closed, or Favorites
+                        </p>
+                        <p><strong>Dining Halls</strong></p>
+                        <p>
+                            Bella can explore different dining halls ordered by 
+                            “Busyness” - Not Busy, Moderate, and Busy. This tab shows
+                            all the dining halls that are currently open. 
+                        </p>
+                    </div>
+                </div>
+
+                <p class="step">Step 3 - Closed Tab</p>
+                <div class="row">
+                    <img class="wireframe" src="images/current/home-closed.png">
+                    <div class="colwireframe">
+                        <p><strong>Dining Halls</strong></p>
+                        <p>
+                            This tab shows
+                            all the dining halls that are currently closed. 
+                        </p>
+                    </div>
+                </div>
+
+                <p class="step">Step 4 - Favorites Tab</p>
+                <div class="row">
+                    <img class="wireframe" src="images/current/home-favorites.png">
+                    <div class="colwireframe">
+                        <p><strong>Dining Halls</strong></p>
+                        <p>
+                            This tab shows
+                            all the dining halls that are currently favorites. 
+                        </p>
+                    </div>
+                </div>
+
+                <p class="step">Step 5 - Dining Hall > Info Tab</p>
+                <div class="row">
+                    <img class="wireframe" src="images/current/dining-hall-info.png">
+                    <div class="colwireframe">
+                        <p><strong>Favorite Star (Top-Right)</strong></p>
+                        <p>
+                            Bella can favorite this dining hall for it to appear in the
+                            favorites tab on the home page.
+                        </p>
+                        <p><strong>Menu/Info Tabs</strong></p>
+                        <p>
+                            Bella can view Dining Hall Info (such as locations, opening hours, etc.), 
+                            the Full Menu, or Menu with her Dietary Preferences. 
+                        </p>
+                        <p><strong>Dining Hall Information</strong></p>
+                        <p>
+                            This is the default tab when clicking on a dining hall on the Home Page. 
+                            Bella can find information about Operating Hours, Description, Payments/Cash, Address, etc. 
+                        </p>
+                    </div>
+                </div>
+
+                <p class="step">Step 6 - Dining Hall > Full Menu Tab</p>
+                <div class="row">
+                    <img class="wireframe" src="images/current/dining-hall-full-menu.png">
+                    <div class="colwireframe">
+                        <p><strong>Date</strong></p>
+                        <p>
+                            Bella can choose a date to view the menu for that date.
+                        </p>
+                        <p><strong>Meal Choice</strong></p>
+                        <p>
+                            Bella can click on a meal to view the menu for what the dining hall
+                            will serve during those hours. 
+                        </p>
+                        <p><strong>Dishes</strong></p>
+                        <p>
+                            Bella can click on a dish to view ingredients and nutritional information.
+                        </p>
+                    </div>
+                </div>
+
+                <p class="step">Step 7 - Dining Hall > Your Menu Tab</p>
+                <div class="row">
+                    <img class="wireframe" src="images/current/dining-hall-your-menu.png">
+                    <div class="colwireframe">
+                        <p><strong>Manage Menu Preferences</strong></p>
+                        <p>
+                            Bella can click on the Manage Menu Preferences button to adjust her
+                            dietary preferences.
+                        </p>
+                        <p>
+                            The dishes she will see on this page will then be filtered by her 
+                            dietary preferences. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="colmain">
+                <p class="heading">Nutrition Facts</p>
+                <p class="subheading">Analysis of Current App Design</p>
+                <p><strong>Pain Point 1 - Notification Settings Alert</strong></p>
+                <p>
+                    If Bella refuses notifications, the app should not prompt her
+                    every time she opens it because it makes using the app inconvenient by
+                    adding an extra action to her user flow. 
+                </p>
+                <p>
+                    Furthermore, Bella doesn't have a lot of time, so slowing down her journey
+                    to access menu information is harmful to her experience and very frustrating.
+                </p>
+                <p><strong>Pain Point 2 - Poor Dining Hall Organization</strong></p>
+                <p>
+                    Dining Halls in the app are ordered by busyness from Not Busy to Moderate to Busy by default. 
+                    Favorites exist in a different tab. Ideally, Bella would want her favorite dining halls to be the most visible, 
+                    even before even the "Not Busy" dining halls on the Open tab. This would reduce the the amount of effort
+                    she has to take to get her information. 
+                </p>
+                <p>
+                    Taking this idea further, Bella may want to customize how the dining halls are sorted. 
+                    For example, she may benefit from seeing which dining halls would be open at some time in the future like a 
+                    gap she has between classes. Additionally, she may benefit from sorting dining halls by how close she is to
+                    them, to make a better choice about where to grab a quick meal. 
+                </p>
+                <p><strong>Pain Point 3 - Poor Menu/Info Organization</strong></p>
+                <p>
+                    Dining Halls open to the Info tab by default. Bella usually uses this app to check menu information more than any other 
+                    information about a dining hall. This adds an extra unnecessary step in her user flow, which is especially important
+                    due to Bella's limitations on time. 
+                </p>
+                <p>
+                    The Your Menu and Full Menu pages are more complicated than they need to be. Bella has some dietary preferences, 
+                    but to see which dishes match them, she has to view a different page than the Full Menu page that she's likely
+                    already on. 
+                </p>
+                <p>
+                    The Your Menu page would also exclude shellfish and non-vegan options, even though Bella is allergic to 
+                    shellfish and only has a preference for vegan meals. Bella may want to know which dishes that have been excluded 
+                    are non-vegan and which have shellfish to make better choices about what dishes she would enjoy. For example, 
+                    she may want a chicken dish on one day when she's feeling like having something non-vegan, but to see these 
+                    dishes in her Your Menu page, she would have to change her preferences. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="colmain">
+                <p class="heading">Reviews</p>
+                <p class="subheading">Redesign of App using Balsamiq</p>
+                <p class="step">1/8 - Home</p>
+                <div class="row">
+                    <img class="wireframe" src="images/new/home.png">
+                    <div class="colwireframe">
+                        <p><strong>Notification Alert</strong></p>
+                        <p>
+                            I removed the notifications alert on launching the app to address Pain Point 1.
+                        </p>
+                        <p><strong>Stars</strong></p>
+                        <p>
+                            I added stars to identify dining hall favorites on the Home Page. 
+                            This should help visibility of the favorites for Bella and internal consistency (using stars to 
+                            identify favorites). This should also help address Pain Point 2. 
+                        </p>
+                        <p><strong>Filter Bar</strong></p>
+                        <p>
+                            I consolidated the Open/Closed/Favorites tab into one home page 
+                            by replacing the tabs with filters Open Now, Open At, Ignore Favorites, and Sort By. 
+                            This adds more customizability to Bella's view of her dining halls and should reduce the
+                            complexity of finding a dining hall for Bella, enabling her to 
+                            better find the information she needs. This addresses Pain Point 2.  
+                        </p>
+                        <p><strong>Dining Hall Organization</strong></p>
+                        <p>
+                            I reorganized the dining halls from sorting by busyness to: 
+                            Favorites by Busyness > Non-Favorites by Busyness > Closed Favorites > 
+                            Non-Closed Favorites. 
+                        </p>
+                        <p>
+                            This is a more intuitive ordering of the dining halls, and Bella should be able to 
+                            easier find her top dining halls, addressing Pain Point 2.
+                        </p>
+                    </div>
+                </div>
+
+                <p class="step">2/8 - Home > Open Now</p>
+                <div class="row">
+                    <img class="wireframe" src="images/new/home-open-now.png">
+                    <div class="colwireframe">
+                        <p><strong>Open Now</strong></p>
+                        <p>
+                            Bella can filter for only dining halls open now like the old “Open” tab.
+                            This preserves the functionality of the tabs, and continuing to allow 
+                            Bella to search for dining halls that are open in the moment.   
+                        </p>
+                    </div>
+                </div>
+
+                <p class="step">3/8 - Home > Open At</p>
+                <div class="row">
+                    <img class="wireframe" src="images/new/home-open-at.png">
+                    <div class="colwireframe">
+                        <p><strong>Open At</strong></p>
+                        <p>
+                            Bella can filter for only dining halls open at specific times. This allows her
+                            to plan ahead rather than just see what's open/closed now. Planning ahead could
+                            save her precious time in between events. 
+                        </p>
+                    </div>
+                </div>
+
+                <p class="step">4/8 - Home > Ignore Favorites</p>
+                <div class="row">
+                    <img class="wireframe" src="images/new/home-ignore-stars.png">
+                    <div class="colwireframe">
+                        <p><strong>Ignore Favorites</strong></p>
+                        <p>
+                            Bella can click on this button to ignore starred/favorite dining halls when sorting 
+                            the dining halls. This option is valuable because it mirrors the old interface's Open 
+                            and Closed tabs, allowing old users to keep using the flows that they had for the old 
+                            version of the app.  
+                        </p>
+                    </div>
+                </div>
+
+                <p class="step">5/8 - Home > Sort By</p>
+                <div class="row">
+                    <img class="wireframe" src="images/new/home-sort-by.png">
+                    <div class="colwireframe">
+                        <p><strong>Sort By</strong></p>
+                        <p>
+                            Bella can sort dining halls by Busyness (default), Alphabetical, or Distance from her.
+                            This adds more customizability but still leaves the default option of sorting by busyness
+                            like in the old interface. Sorting Alphabetically could help Bella find a specific hall/cafe 
+                            and sorting by Distance could help Bella make a choice about where she can get a meal 
+                            the fastest. 
+                        </p>
+                    </div>
+                </div>
+
+                <p class="step">6/8 - Home > Menu</p>
+                <div class="row">
+                    <img class="wireframe" src="images/new/home-menu.png">
+                    <div class="colwireframe">
+                        <p><strong>Dietary Preferences</strong></p>
+                        <p>
+                            As can be seen below, the Your Menu and Full Menu pages were consolidated. 
+                            Now, Bella can update dietary preferences in this menu on the home page and they will be
+                            reflected in all the menus across all the dining halls. This should make it more 
+                            convenient for Bella to change her preferences. 
+                        </p>
+                    </div>
+                </div>
+
+                <p class="step">7/8 - Dining Hall > Menu</p>
+                <div class="row">
+                    <img class="wireframe" src="images/new/dining-hall-menu.png">
+                    <div class="colwireframe">
+                        <p><strong>Single Menu Tab</strong></p>
+                        <p>
+                            I fixed the unnecessary segregation of the Full Menu and Your Menu tabs 
+                            to simplify it into one tab. 
+                        </p>
+                        <p>
+                            This tab is also now the default tab (instead of
+                            the Info tab) because Bella would usually use this app only to get 
+                            menu information. This makes getting that information as easy as clicking 
+                            on a dining hall - just one click, addressing Pain Point 3. 
+                        </p>
+                        <p>
+                            To make clear which dishes do not match Bella's dietary preferences, 
+                            I grayed them out and highlighted the allergen/ingredient(s) that do not match 
+                            with the preferences in red. This should make it clear which allergens/ingredients 
+                            are responsible for being incompatible with Bella's dietary preferences, addressing 
+                            Pain Point 3. 
+                        </p>
+                    </div>
+                </div>
+
+                <p class="step">8/8 - Dining Hall > Info</p>
+                <div class="row">
+                    <img class="wireframe" src="images/new/dining-hall-info.png">
+                    <div class="colwireframe">
+                        <p><strong>Info Tab</strong></p>
+                        <p>
+                            While Info is no longer the default tab, users can still access the same 
+                            information as earlier. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
