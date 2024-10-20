@@ -1,0 +1,515 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Vikramaditya Jaisingh</title>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    </head>
+
+    <body>
+        <script src="script.js"></script>
+    </body>
+
+    <div class="container">
+        <div class="row">
+            <div class="colheading">
+                <p class="heading">Amherst Cinema II: The Redesign</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="colscript">
+                <div class="rowscript">
+                    <p><strong>Project Introduction</strong></p>
+                    <p>
+                        Amherst Cinema is an independent, nonprofit movie theater in Amherst, Massachusetts. Going to Amherst 
+                        Cinema to watch movies with my friends is always really fun! They have a diverse selection of films, 
+                        including independent, foreign, documentary, and classic movies that are incredibly interesting to watch
+                        and learn about. Amherst Cinema's special events are also extremely fun events that I love to go to.  
+                    </p> 
+                    <hr>
+                    <p>
+                        Recently, I attended a local screening of <em>The Room</em>, a cult classic romantic drama directed by Tommy Wiseau 
+                        known as "the worst movie ever made." The event was with a commentary and meet and greet with one of the actors in 
+                        the film (Greg Sestero). I thoroughly enjoyed my experience at the theater with my Italian blood orange soda and 
+                        nutritional yeast on my popcorn, not to mention the hilarious Q&A and meet and greet with Greg Sestero. However,
+                        my experience navigating the Amherst Cinema Website's Home Page was incredibly frustrating. This is why I 
+                        chose to redesign the Amherst Cinema Website's Home Page for one of my independent projects for my CS-325: Human 
+                        Computer Interaction class.  
+                    </p>
+                    <hr>
+                    <p>
+                        For this project, I first designed some user personas. Then, I used Balsamiq to recreate the user experience 
+                        for the current design of the home page, examined pain points, and redesigned the home page through a prototype
+                        in Balsamiq. Finally, I used Figma to create a high-fidelity prototype of the new design. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="colheading">
+                <p class="heading">Designing User Personas</p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="subheading">Persona 1</p>
+        </div>
+        <div class="row">
+            <img class="persona" src="images/personas/olivia-persona.png">
+            <div class="colpersona">
+                <a href="https://www.freepik.com/free-photo/young-beautiful-african-woman-student-resting-relaxing-sitting-cafe-smiling-drinking-coffee_8812267.htm#fromView=search&page=3&position=8&uuid=5a6c65da-6855-47b0-b9b7-bbd20f0f01c0">Image by cookie_studio on Freepik</a>
+                <p><strong>Name:</strong> Olivia</p>
+                <p><strong>Occupation:</strong> B.A. in English Candidate at UMass</p>
+                <p><strong>Age:</strong> 21</p>
+                <p><strong>Location:</strong> On-Campus Housing, Amherst</p>
+                <p><strong>Motivations:</strong> 
+                     Relax and unwind with friends, explore unique films 
+                    beyond mainstream Hollywood, attend horror movie nights or cult classics.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="colmain">
+                <p><strong>Background:</strong>
+                    Olivia is an extroverted, fun-loving junior at UMass Amherst majoring 
+                    in English with a minor in Media Studies. She's heavily involved in campus life, 
+                    including film clubs and social activities. Olivia developed an interest in movies
+                    in Freshman year when her friend group watched <em>The Rocky Horror Picture Show</em> 
+                    at Amherst Cinema. Ever since then, she's been going to watch a couple movies a month with her 
+                    friend group at Amherst Cinema, mostly cult and horror classics. Olivia usually buys her 
+                    tickets last-minute when her friend group decides they want to watch a movie. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="subheading">Persona 2</p>
+        </div>
+        <div class="row">
+            <img class="persona" src="images/personas/miguel-persona.png">
+            <div class="colpersona">
+                <a href="https://www.freepik.com/free-photo/serious-male-user-using-wireless-internet-connection_5889909.htm#fromView=search&page=1&position=23&uuid=bd489453-47d6-401b-a09b-301360097e6e">Image by pch.vector on Freepik</a>
+                <p><strong>Name:</strong> Miguel</p>
+                <p><strong>Occupation:</strong> Ph.D. Film Studies Candidate at UMass</p>
+                <p><strong>Age:</strong> 26</p>
+                <p><strong>Location:</strong> Apartment, Downtown Amherst</p>
+                <p><strong>Motivations:</strong>
+                     Stay updated with the latest in independent and foreign cinema, find films relevant to 
+                    his dissertation, attend post-screening discussions and filmmaker Q&As.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="colmain">
+                <p><strong>Background:</strong>
+                    Miguel was always fascinated by movies ever since he stumbled upon his uncle's copy of 
+                    <em>City of God</em>. During his undergrad years, he developed a passion for 
+                    film theory and decided to pursue it academically. Now, as a Ph.D. candidate in Film Studies, 
+                    he's researching Latin American Cinema. He spends most of his time either in the library or 
+                    at academic conferences, and sees Amherst Cinema as a vital resource for his personal passion.
+                    He spends time watching and analyzing films independently, but watching 1-2 films each week 
+                    at Amherst Cinema is special to Miguel because of the community and because he is a member. 
+                    He usually watches films at Amherst Cinema when he wants a break from his thesis, but he 
+                    sometimes plans ahead to go to special events. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="subheading">Persona 3</p>
+        </div>
+        <div class="row">
+            <img class="persona" src="images/personas/julia-persona.png">
+            <div class="colpersona">
+                <a href="https://www.freepik.com/free-photo/full-shot-woman-with-paint-tubes_13757825.htm#fromView=search&page=1&position=41&uuid=8e3976c0-0091-441f-9f77-22330c175927">Image by freepik</a>
+                <p><strong>Name: </strong>Julia</p>
+                <p><strong>Occupation:</strong> Visual Artist</p>
+                <p><strong>Age:</strong> 31</p>
+                <p><strong>Location:</strong> Apartment, Northampton</p>
+                <p><strong>Motivations:</strong>
+                     Support independent art forms, 
+                    gain inspiration from experimental or visually innovative films, 
+                    connect with other local creatives.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="colmain">
+                <p><strong>Background:</strong>
+                    Julia has always been creative, from painting as a child to pursuing photography and mixed media as an adult.
+                    After studying visual arts at MassArt, she moved to Northampton to be part of a growing artist community.
+                    Julia makes her living through freelance projects, selling prints online, and exhibiting her work in local galleries.
+                    As a visual artist, she's drawn to films that push boundaries, either through innovative storytelling, unique cinematography,
+                    or experimental techniques. Amherst Cinema is a place where she can find artistic inspiration, attend thought-provoking films,
+                    and meet fellow creatives at local events. She likes attending special events/screenings to learn more about the art form,
+                    and she likes going to Amherst Cinema to get inspiration for her projects and overcome creative block. Since she goes 
+                    to Amherst Cinema frequently, she is considering becoming a member. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="subheading">Persona 4</p>
+        </div>
+        <div class="row">
+            <img class="persona" src="images/personas/robert-persona.png">
+            <div class="colpersona">
+                <a href="https://www.freepik.com/free-photo/full-shot-kid-man-playing-videogame_22316232.htm#fromView=search&page=2&position=48&uuid=2f243be5-27c3-454e-a0b2-1ed5f674ec4b">Image by freepik</a>
+                <p><strong>Name: </strong>Robert</p>
+                <p><strong>Occupation:</strong> Bank Manager</p>
+                <p><strong>Age:</strong> 42</p>
+                <p><strong>Location:</strong> House, South Amherst</p>
+                <p><strong>Motivations:</strong>
+                     Spend quality time with his wife and two kids, 
+                    introduce them to classic and animated films, 
+                    and find family-friendly events or matinees.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="colmain">
+                <p><strong>Background:</strong>
+                    Robert has lived in South Amherst his whole life and now works at the local Florence Bank. 
+                    He and his wife have two young kids, ages 7 and 10, and he enjoys spending weekends finding 
+                    ways to entertain and educate them while spending quality time with them. Mark is a big fan 
+                    of classic animated films from his own childhood, and some newer titles, and wants to introduce 
+                    his kids to a wide variety of movies, from new animated releases to beloved classics. 
+                    Amherst Cinema offers family-friendly screenings that appeal to both him and his kids, with 
+                    occasional special events like sing-alongs or holiday-themed movies. He doesn't go to Amherst Cinema
+                    too frequently, and usually only shows up for the family events. 
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="colheading">
+                <p class="heading">Current Home Page Design</p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="subheading">
+                Wireframe 1 - Home Page 
+            </p>
+        </div>
+        <div class="row">
+            <img class="wireframe" src="images/current/home-page.png">
+            <div class="colwireframe">
+                <p><strong>Navigation Bar</strong></p>
+                <p>
+                    Navigate to Films/Events, Membership, Support (Amherst Cinema), 
+                    About, Sign In, and Amherst Cinema Socials. 
+                </p>
+                <p><strong>Carousel</strong></p>
+                <p>
+                    Shows movies currently playing and upcoming special events/screenings.  
+                </p>
+                <p><strong>Playing Today</strong></p>
+                <p>
+                    Showtimes for films playing today.  
+                </p>
+                <p><strong>About Us</strong></p>
+                <p>
+                    Section with Newsletter, About, Parking Tips, News (Again), 
+                    Accessibility Details, and Awards information. 
+                </p>
+                <p><strong>Calendar</strong></p>
+                <p>
+                    Users can hover/click on dates to see showtimes for that date.  
+                </p>
+                <p><strong>Upcoming In-Person</strong></p>
+                <p>
+                    Section showcasing upcoming special events and screenings. 
+                </p>
+                <p><strong>Join Our E-Newsletter</strong></p>
+                <p>
+                    Signup section for Amherst Cinema newsletter. 
+                </p>
+                <p><strong>Footer</strong></p>
+                <p>
+                    Shows Films, Membership, About Us details (again). Contact and Nonprofit details, also. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="subheading">
+                Wireframe 2 - Home Page >  About
+            </p>
+        </div>
+        <div class="row">
+            <img class="wireframe" src="images/current/home-page-about.png">
+            <div class="colwireframe">
+                <p><strong>About Tab</strong></p>
+                <p>
+                    Links to About Amherst Cinema, Special Event Newsletter, Health & Safety information, 
+                    News & Updates, Board & Staff information, Awards & Recognition information, 
+                    Employment information, and Contact information. This is very complicated to navigate. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="subheading">
+                Wireframe 3 - Home Page > Support
+            </p>
+        </div>
+        <div class="row">
+            <img class="wireframe" src="images/current/home-page-support.png">
+            <div class="colwireframe">
+                <p><strong>Support Tab</strong></p>
+                <p>
+                    Links to Donation, Gift Ideas, and Membership pages. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="subheading">
+                Wireframe 4 - Home Page > Membership 
+            </p>
+        </div>
+        <div class="row">
+            <img class="wireframe" src="images/current/home-page-membership.png">
+            <div class="colwireframe">
+                <p><strong>Membership Tab</strong></p>
+                <p>
+                    Links to Membership page (again).
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="colheading vertical-center">
+                <p class="heading">Analyzing User Pain Points</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="colscript">
+                <div class="rowscript">
+                    <p class="subheading">Pain Point 1 - Visibility of Main Functionalities</p>
+                    <p>
+                        Most users come to this website to <strong>purchase movie/event tickets</strong>, 
+                        <strong>explore movie/event times</strong>, and <strong>plan their visit</strong>. 
+                        Olivia, Miguel, Julia, and Robert are all looking for this information. 
+                    </p>
+                    <p>
+                        In the current version of the website, almost all of this information is <strong>below the 
+                        fold</strong> (users have to scroll to find this information). This makes finding the 
+                        information that our users need more complicated than it needs to be. 
+                    </p>
+                    <p>
+                        Furthermore, the page is also cluttered with other information: the About Us section
+                        with an unreadable newsletter, and an E-Newsletter Signup right on the page. This 
+                        also obscures the main information and functionalities that all of our users are looking
+                        for, making viewing showtimes/purchasing tickets much harder than it needs to be. 
+                    </p>
+                    <hr>
+                    <p class="subheading">Pain Point 2 - Poor Navigation Bar Organization</p>
+                    <p>
+                        The Navigation Bar has <strong>confusing information architecture</strong> that may impede 
+                        users from finding information they're looking for. For example, the Membership page is 
+                        linked twice under the Membership tab and the Support tab. However, the "Parking Tips" is 
+                        only linked once on the page, and nowhere on the Navigation Bar. Miguel or Julia would be
+                        most likely to support the museum through membership as they are frequent visitors with 
+                        disposable income. However, <strong>all of our users would benefit from parking information</strong>, 
+                        which means parking information should be more visible than membership information. This is not the 
+                        case with the current design. 
+                    </p>
+                    <p>
+                        Furthermore, the About Us section contains a mix of information about Amherst Cinema and 
+                        logistics such as parking/health/safety information, <strong>linking to 8 different pages</strong>. 
+                        This is hard to navigate for all users, leading to potential frustrations. 
+                    </p>
+                    <hr>
+                    <p class="subheading">Pain Point 3 - Carousel Issues</p>
+                    <p>
+                        The carousel is <strong>hard to navigate</strong> as it switches images/movies every few seconds,
+                        and the only way to go to a specific image/movie is to click on one of the dots. 
+                        Users like Robert and Olivia who look for special events can't use this carousel 
+                        to view this information. It's <strong>difficult to go to the previous image/movie</strong> because the 
+                        dots are very small to click. Lastly, there is also a <strong>negative transfer effect</strong> 
+                        because most carousels on websites have arrows to navigate/scroll through the images 
+                        which our users may expect. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="colheading vertical-center">
+                <p class="heading">Low-Fi Prototype (Balsamiq)</p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="subheading">
+                Wireframe 1 - Home Page 
+            </p>
+        </div>
+        <div class="row">
+            <img class="wireframe" src="images/new/home-page.png">
+            <div class="colwireframe">
+                <p><strong>Navigation Bar</strong></p>
+                <p>
+                    I moved Membership under the new Support Us section, 
+                    and added a new Plan Your Visit. This makes Health & Safety 
+                    and Parking information more visible for all users, but still lets 
+                    Miguel and Julia find Membership information to continue supporting
+                    Amherst Cinema. 
+                </p>
+                <p><strong>Please Note</strong></p>
+                <p>
+                    I changed the Please Note text into a dismissable alert. This allows users 
+                    to acknowledge the alert and continue with their usual workflow.  
+                </p>
+                <p><strong>Main Home Page Section</strong></p>
+                <p>
+                    The page has only two columns now to simplify finding information for all of our users.
+                    The Playing Today section is the biggest part of website now because Miguel, Julia, and 
+                    Olivia like to purchase tickets to movies somewhat impulsively and making this decision 
+                    should be the simplest easiest task for them. Comparatively, if our users have more time to spend
+                    on the Amherst Cinema website, they can look at the events which are still very visible, despite 
+                    not being the biggest part of the website any more. Events can be less visible that the 
+                    Playing Today because users would usually spend more time exploring the events, and purchasing
+                    event/special screening tickets is usually a less impulsive decision.  
+                </p>
+                <p>
+                    Additionally, I added images for the movies in the Playing Today section. This should help users such as 
+                    Miguel, Julia, and Olivia to make quicker decisions about what film they would like to watch today. 
+                </p>
+                <p><strong>Calendar</strong></p>
+                <p>
+                    I made the calendar smaller to make space for improved visibility for the Playing Today and 
+                    Upcoming In-Person sections, but the calendar is still accessible for users to plan ahead. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="subheading">
+                Wireframe 2 - Home Page >  Dismissed Alert
+            </p>
+        </div>
+        <div class="row">
+            <img class="wireframe" src="images/new/home-page-dismissed.png">
+            <div class="colwireframe">
+                <p><strong>Dismissed Alert</strong></p>
+                <p>
+                    This wireframe shows the home page after a user dismisses the Please Note 
+                    alert. As mentioned above, this allows users to acknowledge the alert and 
+                    continue with their usual workflow.  
+                </p>
+                <p><strong>Carousel</strong></p>
+                <p>
+                    I decreased the height of the carousel to have the "Playing Today" and 
+                    "Browse Our Calendar" sections above the fold, increasing their visibility. 
+                    This should simplify the process of purchasing movie/event tickets and 
+                    viewing showtimes. 
+                </p>
+                <p>
+                    I also added arrows and increased the size of the dots on the carousel for 
+                    users to easier navigate the carousel images/movies. This should simplify the
+                    process of viewing special events. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="subheading">
+                Wireframe 3 - Home Page > About
+            </p>
+        </div>
+        <div class="row">
+            <img class="wireframe" src="images/new/home-page-about.png">
+            <div class="colwireframe">
+                <p><strong>About Tab</strong></p>
+                <p>
+                    To reduce the complexity of the About Tab and improve visibility of information 
+                    users may need to plan their visit, I moved some pages such as Health & Safety 
+                    information into a new Plan Your Visit Tab. This reduces the About Tab into only
+                    6 links from 8, making finding information much easier for all users. 
+                </p>
+                <p><strong>Footer</strong></p>
+                <p>
+                    I removed the sitemap in the Footer because it is redundant with a well organized
+                    Navigation Bar. Instead, I shifted some information from the third column of the old 
+                    design into the Footer. This preserves having all of the information in the old design 
+                    with the benefit of having upcoming events and films playing today being the most visible. 
+                    This allows users to fulfill their most important tasks of exploring showtimes/special events, 
+                    purchasing tickets, and planning their visit, while still having access to subscribing 
+                    to Amherst College's newsletter and donating to Amherst Cinema, for example.  
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="subheading">
+                Wireframe 4 - Home Page > Support Us 
+            </p>
+        </div>
+        <div class="row">
+            <img class="wireframe" src="images/new/home-page-support-us.png">
+            <div class="colwireframe">
+                <p><strong>Membership/Support Us</strong></p>
+                <p>
+                    I merged the Membership details into one Support Us section. This gives us space for 
+                    a Plan Your Visit section, which is important information for all of our users. 
+                    I kept Membership/Support details visible by linking those sections in the footer. 
+                    This allows Miguel and Julia to continue supporting Amherst Cinema, and Olivia and 
+                    Robert to consider supporting Amherst Cinema, without taking up too much space on the 
+                    page. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <p class="subheading">
+                Wireframe 5 - Home Page > Plan Your Visit 
+            </p>
+        </div>
+        <div class="row">
+            <img class="wireframe" src="images/new/home-page-plan-your-visit.png">
+            <div class="colwireframe">
+                <p><strong>Plan Your Visit</strong></p>
+                <p>
+                    I added links to Parking Tips, Accessibility, Health & Safety, and Contact information 
+                    in the navigation bar under a new Plan Your Visit section. In the old version of the website, 
+                    this information was divided and hard to find. Users had to find some of the information in the 
+                    rightmost column, and some in the About section. However, in this design, planning their visit 
+                    is much more visible, benefiting all users. 
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="colheading vertical-center">
+                <p class="heading">High-Fi Prototype (Figma)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="colscript">
+                <div class="rowscript">
+                <p>
+                    Translating from the low-fidelity prototype to a high-fidelity prototype in Figma had some challenges.
+                    For example, translating the Balsamiq UI into Figma required designing a color palette. 
+                    To design the prototype, I sampled the colors, fonts, and logos from the current website to preserve brand identity.
+                </p>
+                <img src="images/AmherstCinemaColorPalette.png" style="width: 98%;">
+                <p>
+                    Additionally, building this prototype required building custom components such as a new calendar, 
+                    a new carousel, and buttons for the footer in Figma. I matched these components to the current website 
+                    as closely as possible. For example, I based the new buttons on the design for the "Subscribe" button for the
+                    newsletter, but I bolded the text for improved readability. 
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="subheading">Wireframe - Home Page</p>
+        </div>
+        <div class="row">
+            <img class="wireframe" src="images/figma/AmherstCinemaWireframes1.png">
+        </div>
+        <div class="row">
+            <p class="subheading">Figma Prototype + File</p>
+        </div>
+        <div class="row">
+            <iframe style="border: 1px solid #FFFFFF;" width="800" height="450" src="https://embed.figma.com/design/w54yIbm8KUZvYzjPJorwN7/AmherstCinemaWebsite?node-id=1-4&embed-host=share" allowfullscreen></iframe>
+            </div>
+        <div class="row">
+            <a target="_blank" href="https://www.figma.com/proto/w54yIbm8KUZvYzjPJorwN7/AmherstCinemaWebsite?page-id=0%3A1&node-id=1-4&node-type=canvas&viewport=302%2C320%2C0.14&t=vcEu1Sam2WV1OXVT-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A4&share=1">Figma Prototype Link</a>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <a target="_blank" href="images/figma/AmherstCinemaWebsite.fig">Figma File</a>
+        </div>
+    </div>

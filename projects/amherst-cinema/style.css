@@ -1,0 +1,191 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+
+@media only screen and (min-width: 900px) {
+    body {
+      min-width: 100% !important;
+      min-height: 100vh !important;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #1e1e1e !important;
+      color: #FFFFFF !important;
+      text-align: start !important;
+      font-size: 2.4vh !important;
+    }
+    
+    .container {
+        width: 100% !important;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .heading {
+        padding-top: 6.4vw !important;
+        padding-left: 1vw !important;
+        padding-right: 1vw !important;
+        font-size: 2.3vw !important;
+        color: #000000 !important;
+        font-weight: 900;
+    }
+
+    .subheading {
+        font-size: 4vh !important;
+        font-weight: 800;
+    }
+
+    .colmain {
+        width: 70%;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        width: 100% !important;
+        padding-bottom: 2vh !important;
+    }
+
+    .rowscript {
+        background-color: #FFFFFF !important;
+        color: #000000 !important;
+        padding-right: 1vw !important;
+        padding-left: 1vw !important;
+        padding-top: 1.375vw !important;
+        padding-bottom: 2vw !important;
+        width: 50% !important;
+        font-family: 'Courier New', Courier, monospace !important;
+        -webkit-mask: conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) 50%/3vh 100%;
+    }
+
+    .colscript {
+        display: flex;
+        justify-content: center;
+    }
+
+    .colheading {
+        border-radius: 4vh !important;
+        display: flex;
+        justify-content: center;
+        text-align: center !important;
+        width: 24vw !important;
+        background-image: url(images/clapboard.svg);
+        background-size: cover;
+        height: 19vw;
+    }
+
+    .wireframe {
+        width: 45%;
+    }
+
+    .colwireframe {
+        padding-left: 2%;
+        width: 25%;
+    }
+
+    .persona {
+        max-width: 30vw !important;
+        max-height: 46vw !important;
+    }
+
+    .colpersona {
+        padding-left: 1%;
+        padding-right: 1%;
+        width: 30%;
+    }
+
+    strong {
+        font-weight: 900 !important;
+    }
+}
+
+@media only screen and (max-width: 899px) {
+    body {
+      min-width: 100% !important;
+      min-height: 100vh !important;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #1e1e1e !important;
+      color: #FFFFFF !important;
+      text-align: start !important;
+      font-size: 2.4vh !important;
+    }
+    
+    .container {
+        width: 100% !important;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .heading {
+        padding-top: 12.8vw !important;
+        padding-left: 2vw !important;
+        padding-right: 2vw !important;
+        font-size: 4.6vw !important;
+        color: #000000 !important;
+        font-weight: 900;
+    }
+
+    .subheading {
+        font-size: 4vh !important;
+        font-weight: 800;
+    }
+
+    .colmain {
+        width: 90%;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100% !important;
+        padding-bottom: 2vh !important;
+    }
+
+    .rowscript {
+        background-color: #FFFFFF !important;
+        color: #000000 !important;
+        padding-right: 1vw !important;
+        padding-left: 1vw !important;
+        padding-top: 1.375vw !important;
+        padding-bottom: 2vw !important;
+        width: 90% !important;
+        font-family: 'Courier New', Courier, monospace !important;
+        -webkit-mask: conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) 50%/3vh 100%;
+    }
+
+    .colscript {
+        display: flex;
+        justify-content: center;
+    }
+
+    .colheading {
+        border-radius: 4vh !important;
+        display: flex;
+        justify-content: center;
+        text-align: center !important;
+        width: 48vw !important;
+        background-image: url(images/clapboard.svg);
+        background-size: cover;
+        height: 38vw;
+    }
+
+    .wireframe {
+        width: 100%;
+    }
+
+    .colwireframe {
+        padding-left: 2%;
+        width: 93%;
+    }
+
+    .persona {
+        width: 100% !important;
+    }
+
+    .colpersona {
+        padding-left: 1%;
+        padding-right: 1%;
+        width: 93%;
+    }
+
+    strong {
+        font-weight: 900 !important;
+    }
+}
