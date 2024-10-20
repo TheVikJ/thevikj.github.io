@@ -100,7 +100,7 @@
     max-width: 35%;
     min-width: fit-content !important;
     display: flex !important;
-    justify-content: space-between !important;
+    justify-content: space-around !important;
   }
 
   a {
