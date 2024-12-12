@@ -48,6 +48,8 @@
 
   .colproject {
     width: 25vw !important;
+    padding-top: 1vh;
+    padding-bottom: 2.5vh;
   }
 
   .projimage {
