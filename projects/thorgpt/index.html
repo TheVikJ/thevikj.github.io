@@ -1,0 +1,242 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <title>Vikramaditya Jaisingh</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  </head>
+
+  <body>
+    <script src="script.js"></script>
+  </body>
+
+  <div class="container" id="projects">
+    <div class="row">
+        <p id="ThorGPT">
+            ThorGPT
+        </p>
+    </div>
+    <div class="row">
+        <div class="colprompt">
+            <div class="rowprompt">
+                <p class="prompt">
+                    Project Description
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="colanswer">
+            <div class="rowanswer">
+                <p class="answer">
+                    ThorGPT was my final group project for my CS-320: Software Engineering class. 
+                    Our task was to build a RAG LLM for ISO New England to help users like ISO New
+                    England employees and contractors easily search for rules, procedures, and documents.
+                    I was responsible for building the frontend in React, designing the UI, updating 
+                    documentation, and collaborating on the architecture for our project. However, this 
+                    page will focus on the design process for developing the UI which I conducted 
+                    independently.   
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="colprompt">
+            <div class="rowprompt">
+                <p class="prompt">
+                    User Persona
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="colanswer">
+            <div class="rowanswer">
+                <p class="answer">
+                    I started this design process by collaborating with ISO New England to 
+                    develop a user persona. Through our dialogue, we came up with the persona 
+                    of Joe, a solar panel contractor including his goal and frustrations. 
+                    <img id="persona" src="images/ThorGPTPersona.png">
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="colprompt">
+            <div class="rowprompt">
+                <p class="prompt">
+                    Design Considerations
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="colanswer">
+            <div class="rowanswer">
+                <p class="answer">
+                    Based on the user persona that we came up with, we identified two 
+                    main design considerations to use when designing our prototypes. 
+                    <ol>
+                        <li>Transfer Effect</li>
+                        <ul>
+                            <li>
+                                Joe has probably used other LLMs such as ChatGPT or 
+                                Microsoft Copilot which have similar UIs
+                            </li>
+                            <li>
+                                For example, they share a dark colored background and 
+                                the main text input anchored to the bottom of the page
+                            </li>
+                            <li>
+                                Our design should be similar enough to other LLMs to 
+                                fit users' intuitions
+                            </li>
+                        </ul>
+                        <li>Simplicity</li>
+                        <ul>
+                            <li>
+                                Joe's main frustration with the current search for 
+                                answers is that it is complex and tedious to search 
+                                for the right section in the right document
+                            </li>
+                            <li>
+                                Our design should aim to be as simple to use as 
+                                possible to solve this problem
+                            </li>
+                            <li>
+                                We may do this by having only one frontend page 
+                            </li>
+                        </ul>
+                    </ol>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="colprompt">
+            <div class="rowprompt">
+                <p class="prompt">
+                    Prototype 1
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="colanswer">
+            <div class="rowanswer">
+                <p class="answer">
+                    Using the design considerations and user persona, I came up with
+                    two low-fidelity UI prototypes for ThorGPT using Balsamiq. Below 
+                    is my first prototype. 
+                    <img class="prototype" src="images/Wireframe 1.png"> 
+                    The home page has eight common engineered prompts available to 
+                    choose from. A user can also type their own prompt in the prompt 
+                    bar on the bottom and click on the send button to get an answer. 
+                    The prompt bar also has a button that links to the ISO New England 
+                    website, and a help button that helps users learn how to use ThorGPT.  
+                    <img class="prototype" src="images/Wireframe 1 - Prompt.png">
+                    This wireframe shows the UI when a user types in or chooses a prompt. 
+                    The user prompt is shown on the top right and the AI response is on the 
+                    left. The response also shows an embedded PDF that was used to answer 
+                    the prompt.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="colprompt">
+            <div class="rowprompt">
+                <p class="prompt">
+                    Prototype 2
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="colanswer">
+            <div class="rowanswer">
+                <p class="answer">
+                    Below is my second prototype. 
+                    <img class="prototype" src="images/Wireframe 2.png"> 
+                    The home page has three groups of common engineered prompts available to 
+                    choose from. A user can also type their own prompt in the prompt 
+                    bar on the bottom and click on the send button to get an answer. 
+                    The prompt bar has a link to the ISO New England 
+                    website, and link to a page which helps users learn how to use ThorGPT.  
+                    <img class="prototype" src="images/Wireframe 2 - Prompt.png">
+                    This page shows the UI when a user types in or chooses a prompt. 
+                    The user prompt is, once again, shown on the top right and the AI response is on the 
+                    left. The response here shows a few linked PDFs used to answer the prompt 
+                    with download icons if users want a closer look at the documents. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="colprompt">
+            <div class="rowprompt">
+                <p class="prompt">
+                    Prototype Analysis
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="colanswer">
+            <div class="rowanswer">
+                <p class="answer">
+                    I analyzed both of these prototypes to combine the best features 
+                    for a final prototype. From Prototype 1, I chose to use icons 
+                    for the ISO New England website and help pages in the prompt bar. 
+                    This results in less text crowding the page, simplifying the main 
+                    functionality. 
+                    <br><br>
+                    From Prototype 2, I chose the linked PDFs instead of the embedded 
+                    PDFs. This option offers users the most flexibility in viewing the 
+                    PDFs as they can view the PDFs on their devices/browser, or 
+                    download and view locally. I also chose the three groups of 
+                    engineered prompts instead of the eight prompts because three groups 
+                    of common prompts is simple enough to be useful to users who have 
+                    common questions. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="colprompt">
+            <div class="rowprompt">
+                <p class="prompt">
+                    Final Prototype
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="colanswer">
+            <div class="rowanswer">
+                <p class="answer">
+                    After analyzing my two initial prototypes, I combined the best features
+                    from each into one final prototype, also built in Balsamiq. 
+                    <img class="prototype" src="images/Wireframe Final.png"> 
+                    The home page has three groups of common engineered prompts. 
+                    The prompt bar is the same as Prototype 1.  
+                    <img class="prototype" src="images/Wireframe Final - Prompt.png">
+                    When user types in or chooses a prompt, the PDFs used to answer the prompt 
+                    are linked with download icons if users want a closer look at the documents.
+                    <br><br>
+                    I took this final design back to ISO New England during our weekly 
+                    presentation, and they agreed with me that it sufficiently met our 
+                    design considerations and user needs! 
+                </p>
+            </div>
+        </div>
+    </div>
+  </div>

@@ -1,0 +1,81 @@
+body {
+    min-width: 100% !important;
+    min-height: 100vh !important;
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #20303B !important;
+    color: #FFFFFF !important;
+    text-align: start !important;
+    font-size: 2.4vh !important;
+}
+
+.container {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.colprompt {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+
+.rowprompt {
+    max-width: 75%;
+    width: fit-content;
+    background-color: #1999D8;
+    padding-left: 2vh !important;
+    padding-right: 2vh !important;
+    padding-top: 1vh !important;
+    border-radius: 10px 10px 0px 10px;
+}
+
+.prompt {
+    font-family: "Open Sans", sans-serif !important;
+    color: #FFFFFF;
+}
+
+.colanswer {
+    width: 60%;
+    display: flex;
+    justify-content: start;
+}
+
+.rowanswer {
+    max-width: 85%;
+    width: fit-content;
+    background-color: #3E525B;
+    padding-left: 2vh !important;
+    padding-right: 2vh !important;
+    padding-top: 1vh !important;
+    border-radius: 10px 10px 10px 0px;
+}
+
+.answer {
+    font-family: "Open Sans", sans-serif !important;
+    color: #FFFFFF;
+}
+
+#ThorGPT {
+    font-size: 8vh !important;
+    font-weight: 600;
+    color: #FAB82E;
+}
+
+#persona {
+    width: 100%;
+    border-radius: 10px 10px 10px 0px;
+}
+
+.prototype {
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
