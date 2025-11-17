@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { useState } from "react";   
+import { useState, useEffect } from "react";
 
 /* ----------------------------------------
    IMPORT ALL DESIGN ASSETS
@@ -36,6 +36,9 @@ import ModalFinalTracks from "../assets/freqdesigns/modal-view-v2-tracklist-view
 import ModalFinalAboutNoNotes from "../assets/freqdesigns/modal-view-v2-about-view-no-notes.png";
 
 export default function FreqDetail() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   /* ----------------------------------------
      Helper Arrays for Carousels
   -----------------------------------------*/

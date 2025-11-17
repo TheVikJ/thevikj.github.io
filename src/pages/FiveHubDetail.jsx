@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import iPhoneMockup from "../assets/5hub-iphone-mockup.png";
 
@@ -39,6 +39,10 @@ import proto2 from "../assets/5hubdesigns/prototype2.jpg";
 import proto3 from "../assets/5hubdesigns/prototype3.jpg";
 
 export default function FiveHubDetail() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
+
   // CAROUSEL ARRAYS
   const hiFiInitialScreens = [
     homeMain,
@@ -155,7 +159,7 @@ export default function FiveHubDetail() {
             Interaction at UMass Amherst.
             <br />
             <br />
-            Our brief: design a system  or tool that helps students. 
+            Our brief: design a system or tool that helps students.
             <br />
             <br />
             My role:
@@ -486,9 +490,9 @@ export default function FiveHubDetail() {
         <section className="mb-24">
           <h2 className="text-3xl font-semibold mb-4">Outcome</h2>
           <p className="text-lg leading-relaxed">
-            5Hub offers a focused, student-friendly way to see what's
-            happening across the Pioneer Valley, from small club meetings to
-            larger performances, without depending on fragmented channels.
+            5Hub offers a focused, student-friendly way to see what's happening
+            across the Pioneer Valley, from small club meetings to larger
+            performances, without depending on fragmented channels.
             <br />
             <br />
             As a designer, this project helped me:
@@ -501,8 +505,8 @@ export default function FiveHubDetail() {
             If developed further, 5Hub could support features like personalized
             recommendations, integrated ticketing, and transit links to help
             students move between campuses. More importantly, it shows how a
-            relatively simple tool can strengthen a local
-            community by making it easier for people to show up.
+            relatively simple tool can strengthen a local community by making it
+            easier for people to show up.
           </p>
         </section>
       </div>
