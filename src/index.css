@@ -1,0 +1,51 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+
+
+@import "tailwindcss";
+
+/* Theme colors*/
+@theme {
+  --color-stargazer-bg: #0A0F1F;
+  --color-stargazer-text: #F7F9FC;
+  --color-stargazer-blue: #5B8CFF;
+  --color-stargazer-purple: #C778DD;
+  --color-stargazer-yellow: #FEE715;
+  --color-stargazer-orange: #FFB442;
+
+  --color-analog-bg: #141414;
+  --color-analog-text: #ECE7D3;
+  --color-analog-green: #619957;
+  --color-analog-yellow: #E0A458;
+  --color-analog-orange: #D08247;
+  --color-analog-red: #B43434;
+  --color-analog-blue: #6B8AD3;
+
+  --font-krona: "Krona One", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #0A0F1F;
+  font-family: 'Space Grotesk', sans-serif;
+  color: #F7F9FC;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("/src/assets/noise.png");
+  background-size: 700px;
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+  z-index: -10;
+}
+
+html {
+  scroll-behavior: smooth;
+}
