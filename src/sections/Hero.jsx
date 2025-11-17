@@ -95,25 +95,6 @@ export default function Hero() {
           Resume
         </a>
       </div>
-
-      <a
-        href="#resume"
-        className="
-    mt-10 inline-block
-    px-6 py-3 
-    text-lg
-    border border-stargazer-blue
-    rounded
-    tracking-widest
-    uppercase
-    text-stargazer-blue
-    hover:bg-stargazer-blue hover:text-stargazer-bg
-    transition-all duration-300
-    relative z-20
-  "
-      >
-        ↓ Scroll
-      </a>
     </section>
   );
 }

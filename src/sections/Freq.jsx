@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
 import Freq4 from "../assets/freqthumbnails/FreqSquares1.png";
@@ -94,7 +95,7 @@ export default function FreqSection() {
               </button>
 
               <a
-                href="/freq"
+                href="#/freq"
                 className="text-[#8E27FC] hover:text-[#b164ff] transition text-4xl"
                 title="Go to project page"
               >
@@ -138,12 +139,12 @@ export default function FreqSection() {
 
           {/* View project */}
           <div className="text-center md:text-left">
-            <a
-              href="/freq"
+            <Link
+              to="/freq"
               className="font-krona text-[#8E27FC] text-lg underline underline-offset-4 hover:text-[#b164ff] transition"
             >
               View Project →
-            </a>
+            </Link>
           </div>
         </div>
       </div>
