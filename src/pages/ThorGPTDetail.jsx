@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 // ===== IMPORT IMAGES =====
 //import PersonaImg from "../assets/thordesigns/ThorGPTPersona.png";
@@ -15,6 +16,9 @@ import FinalImpl from "../assets/thordesigns/final-implementation.png";
 import FinalImplLogin from "../assets/thordesigns/final-implementation-login.png";
 
 export default function ThorGPTDetail() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <main
       className="
