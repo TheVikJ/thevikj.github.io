@@ -2,6 +2,7 @@ import Hero from "../sections/Hero";
 import ResumeSection from "../sections/Resume";
 import FreqSection from "../sections/Freq";
 import FiveHubSection from "../sections/5Hub";
+import ThorGPTSection from "../sections/ThorGPT";
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
       </section>
       <section id="5hub">
         <FiveHubSection />
+      </section>
+      <section id="thorgpt">
+        <ThorGPTSection />
       </section>
     </main>
   );
