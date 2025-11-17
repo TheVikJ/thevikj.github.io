@@ -41,7 +41,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
           shadow-xl\r
           overflow-hidden   /* IMPORTANT: keeps stripes inside */\r
           px-10 py-16\r
-        `,children:[b.jsx("div",{className:"absolute inset-0 top-0 left-0 h-[140px]",children:o.map((c,h)=>b.jsx("div",{className:"absolute left-0 w-[200%] h-[28px]",style:{top:`${h*28}px`,backgroundColor:c.color,transform:l?`translateX(${c.finalX})`:"translateX(100%)",transition:`transform 1.3s cubic-bezier(0.25,0.1,0.25,1) ${c.delay}s`}},h))}),b.jsxs("div",{className:"relative z-10 mt-[150px] text-[#141414]",children:[b.jsx("h2",{className:"text-4xl font-bold mb-4 tracking-tight",children:"Resume"}),b.jsx("p",{className:"text-lg opacity-80 max-w-md",children:"Download my resume below"}),b.jsx("a",{href:"resume.pdf",className:`\r
+        `,children:[b.jsx("div",{className:"absolute inset-0 top-0 left-0 h-[140px]",children:o.map((c,h)=>b.jsx("div",{className:"absolute left-0 w-[200%] h-[28px]",style:{top:`${h*28}px`,backgroundColor:c.color,transform:l?`translateX(${c.finalX})`:"translateX(100%)",transition:`transform 1.3s cubic-bezier(0.25,0.1,0.25,1) ${c.delay}s`}},h))}),b.jsxs("div",{className:"relative z-10 mt-[150px] text-[#141414]",children:[b.jsx("h2",{className:"text-4xl font-bold mb-4 tracking-tight",children:"Resume"}),b.jsx("p",{className:"text-lg opacity-80 max-w-md",children:"Download my resume below"}),b.jsx("a",{href:"/resume.pdf",className:`\r
               mt-8 inline-block\r
               px-6 py-3\r
               font-mono \r
