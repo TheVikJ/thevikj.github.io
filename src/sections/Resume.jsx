@@ -79,7 +79,7 @@ export default function ResumeSection() {
               ANALOG-STYLE BUTTON
           ================================= */}
           <a
-            href="resume.pdf"
+            href="/resume.pdf"
             className="
               mt-8 inline-block
               px-6 py-3
