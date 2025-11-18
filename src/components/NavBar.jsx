@@ -25,12 +25,13 @@ export default function NavBar({
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
       className={`
-        fixed top-4 left-1/2 -translate-x-1/2
-        backdrop-blur-xl ${borderColor}
-        px-8 py-3 rounded-2xl shadow-lg
-        flex items-center gap-10 z-[200]
-        transition-colors duration-300
-      `}
+  hidden md:flex
+  fixed top-4 left-1/2 -translate-x-1/2
+  backdrop-blur-xl ${borderColor}
+  px-8 py-3 rounded-2xl shadow-lg
+  items-center gap-10 z-[200]
+  transition-colors duration-300
+`}
     >
       {/* Name */}
       <span className={`${textColor} font-semibold tracking-wide text-lg`}>
